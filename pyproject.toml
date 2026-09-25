@@ -1,0 +1,21 @@
+[project]
+name = "robai-personal-v3-agent-package"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "waqasyousafy", email = "waqasyousafy@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "groq>=0.4.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+robai-personal-v3-agent-package = "robai_personal_v3_agent_package:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
